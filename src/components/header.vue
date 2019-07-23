@@ -1,10 +1,10 @@
 <template>
     <div class="header">
-        <b-navbar toggleable="md" type="light">
+        <b-navbar toggleable="md" type="light" fixed="top">
             <div class="container pt-n1">
                 <b-navbar-brand>
                     <router-link class="navbar-brand font-weight-bold txt-size-n1" to="#" exact>
-                        <img src="../assets/logo1.png" width="40" height="40" class="d-inline-block" alt="logo">
+                        <img src="../assets/logo1.png" class="d-inline-block" alt="logo">
                         tinyone
                     </router-link>
                 </b-navbar-brand>
@@ -72,16 +72,19 @@ button:focus{
 }
 .navbar-toggler:after{
      content:"  Menu";
-     font-size: 1.2rem;
+     font-size: 1.5rem;
 }
 .pt-n1{
   padding-top: 1.5rem !important;
 }
-.pr-n1{
-    padding-right: 25px; 
+.navbar-expand-md{
+    padding: 0 1rem;
 }
 .txt-size-n1{
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+.nav-link{
+    font-size: 1.375rem;
 }
 .txt-color-black{
     color:black;
@@ -94,6 +97,13 @@ button:focus{
 }
 .nav-link:hover{
     color: #fff !important;
+}
+.d-inline-block{
+     width: 40px;
+    height: 40px;
+}
+.fixed-top{
+    position: relative;
 }
 
 
@@ -115,6 +125,12 @@ button:focus{
     .pt-n1{
         padding-top: 0.5rem !important;
     }
+    .txt-size-n1{
+    font-size: 1.75rem;
+}
+    .nav-link{
+    font-size: 1.25rem;
+}
 }
 @media only screen and (max-width: 768px)  {
     .container{
@@ -127,9 +143,21 @@ button:focus{
         text-align: center;
     }
     .nav-item:hover{
-        background:rgba(255, 240, 0, 0.35);
+        background:rgba(255, 234, 0, 0.5);
         margin: 0 -10%;
-    }   
+    }
+    .navbar-toggler:after{
+        content:"  Menu";
+        font-size: 1.25rem;
+    } 
+    .txt-size-n1{
+        font-size: 1.5rem;
+    }
+    .fixed-top{
+        position: fixed;
+        background: rgb(252, 219, 0, 0.9);
+    }
+    
 }
 @media only screen and (max-width: 703px)  {
     .container{

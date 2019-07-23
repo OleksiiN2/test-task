@@ -9,6 +9,7 @@
     "start": "vue-cli-service serve --open"
   },
   "dependencies": {
+    "@chenfengyuan/vue-carousel": "^1.0.2",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.27",
     "core-js": "^2.6.5",
@@ -16,6 +17,7 @@
     "materialize-css": "^1.0.0-rc.2",
     "mdbvue": "^5.7.0",
     "vue": "^2.6.10",
+    "vue-carousel": "^0.18.0",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
   },
@@ -38,6 +40,7 @@
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-bootstrap-vue": "^0.4.0",
     "vue-cli-plugin-mdb": "^1.5.0",
+    "vue-concise-slider": "^3.4.1",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {

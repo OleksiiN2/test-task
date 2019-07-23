@@ -1,7 +1,9 @@
 <template>  
   <div id="app">
     <app-header></app-header>
-    <!--<router-view></router-view>-->
+    <app-carousele></app-carousele>
+    <app-carousele></app-carousele>
+    <app-carousele></app-carousele>
     <app-footer></app-footer>
   </div>
 
@@ -10,11 +12,13 @@
 <script>
 /* eslint-disable */
 import header from './components/header.vue'
+import carousele from './components/carousele.vue'
 import footer from './components/footer.vue'
 
 export default {
   components:{
     'app-header': header,
+    'app-carousele': carousele,
     'app-footer': footer
   }
 }
@@ -27,4 +31,7 @@ export default {
     background: #ffd900;
    
   }*/
+  html{
+     font-family:Arial, Helvetica, sans-serif;
+  }
 </style>
