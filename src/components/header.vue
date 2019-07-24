@@ -61,21 +61,21 @@ export default {
     background: #ffd900;
 } */
 b-navbar{
-    background-color: #fcdb00 !important;
+    background-color: #fcdb00;
 }
 .navbar-light .navbar-toggler{
     border:none;
     color: #000;
 }
 button:focus{
-    outline: none !important;
+    outline: none;
 }
 .navbar-toggler:after{
      content:"  Menu";
      font-size: 1.5rem;
 }
 .pt-n1{
-  padding-top: 1.5rem !important;
+  padding-top: 1.5rem;
 }
 .navbar-expand-md{
     padding: 0 1rem;
@@ -155,7 +155,7 @@ button:focus{
     }
     .fixed-top{
         position: fixed;
-        background: rgb(252, 219, 0, 0.9);
+        background: rgb(252, 219, 0, 0.9);    
     }
     
 }

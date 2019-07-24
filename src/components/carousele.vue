@@ -81,7 +81,7 @@ export default {
 .slider{
     max-width:1924px;
     margin:0 auto;
-    height:600px;
+    height:650px;
     background:#fcdb00;
 }
 .container{
@@ -113,12 +113,16 @@ h2{
     padding: 0 20px;
 }
 .fab:hover{
-    color: #fff;
+    color: rgba(255,255,255, 0.75);
 }
 .slideImg img{
    
     object-fit:contain;
     float: right;
+}
+.swiper-container-horizontal /deep/ .slider-pagination-bullet{
+    height: 12px;
+    width: 12px;
 }
 
 
@@ -146,7 +150,7 @@ h2{
     }
     .slider{
          margin:0 auto;
-        height:600px;
+        height:650px;
     } 
 }
 @media only screen and (max-width: 1024px)  {
@@ -198,10 +202,15 @@ h2{
 @media only screen and (max-width: 703px)  {
     .container{
          max-width: 95%;   
+         padding-top: 60px;
     }
     .pt-n1{
         padding-top: 0 !important;
     }
+    .slider{
+         margin:0 auto;
+        height:600px;
+    } 
 }
 @media only screen and (max-width: 414px)  {
     .container{
@@ -212,7 +221,7 @@ h2{
     }
     .slider{
          margin:0 auto;
-        height:600px;
+        height:650px;
     } 
     
 }

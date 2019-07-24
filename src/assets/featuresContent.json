@@ -1,0 +1,38 @@
+{
+  "title":"Tinyone features",
+  "subtitle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis.",
+  "features": [
+    {
+      "ftitle": "Fully Responsive",
+      "fcontent": "Lorem ipsum dolor sit amet, adipiscing percipitur id cum, an verear persius pro. Eos ex zril regione voluptaria, ne copiosae molestiae quo",
+      "fimg": "fas fa-tablet-alt fa-2x"
+    },
+    {
+      "ftitle": "Fully Layered PSD",
+      "fcontent": "Lorem ipsum dolor sit amet, adipiscing percipitur id cum, an verear persius pro. Eos ex zril regione voluptaria, ne copiosae molestiae quo",
+      "fimg": "far fa-lemon fa-2x" 
+    },
+    {
+      "ftitle": "Font Awesome Icons",
+      "fcontent": "Lorem ipsum dolor sit amet, adipiscing percipitur id cum, an verear persius pro. Eos ex zril regione voluptaria, ne copiosae molestiae quo",
+      "fimg": "far fa-folder fa-2x" 
+    },
+    {
+      "ftitle": "HTML5 & CSS3",
+      "fcontent": "Lorem ipsum dolor sit amet, adipiscing percipitur id cum, an verear persius pro. Eos ex zril regione voluptaria, ne copiosae molestiae quo",
+      "fimg": "fa fa-code fa-2x" 
+    }
+    ,
+    {
+      "ftitle": "Email Template",
+      "fcontent": "Lorem ipsum dolor sit amet, adipiscing percipitur id cum, an verear persius pro. Eos ex zril regione voluptaria, ne copiosae molestiae quo",
+      "fimg": "far fa-envelope fa-2x" 
+    }
+    ,
+    {
+      "ftitle": "Free to Download",
+      "fcontent": "Lorem ipsum dolor sit amet, adipiscing percipitur id cum, an verear persius pro. Eos ex zril regione voluptaria, ne copiosae molestiae quo",
+      "fimg": "far fa-bookmark fa-2x" 
+    }
+  ]
+}
