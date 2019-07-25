@@ -12,9 +12,6 @@
                 <b-navbar-toggle target="nav-collapse" class="font-weight-bold"></b-navbar-toggle>
 
                 <b-collapse id="nav-collapse" is-nav>
-            
-                    <!-- Right aligned nav items -->
-                
                     <b-navbar-nav class="ml-auto">
                         <b-nav-item>
                             <router-link class="nav-link text-dark font-weight-bold" to="#" exact>Features</router-link>
@@ -33,33 +30,17 @@
 </template>
 
 <script>
-
-//import { mdbNavbar, mdbNavItem, mdbNavbarNav, mdbNavbarToggler, mdbContainer, mdbRow, mdbInput, mdbNavbarBrand, mdbIcon } from 'mdbvue';
-export default {
-  /*  name: 'HamburgerMenuPage',
-             components: {
-                mdbNavbar,
-                mdbNavItem,
-                mdbNavbarNav,
-                mdbNavbarToggler,
-                mdbContainer,
-                mdbRow,
-                mdbInput,
-                mdbNavbarBrand,
-                mdbIcon
-            },*/
-    data(){
-        return {
-             
-             }
+    export default {
+        data(){
+            return {
+                
+            }
         }
     } 
 </script>
 
 <style scoped>
-/*nav{
-    background: #ffd900;
-} */
+
 b-navbar{
     background-color: #fcdb00;
 }
@@ -71,11 +52,11 @@ button:focus{
     outline: none;
 }
 .navbar-toggler:after{
-     content:"  Menu";
-     font-size: 1.5rem;
+    content:"  Menu";
+    font-size: 1.5rem;
 }
 .pt-n1{
-  padding-top: 1.5rem;
+    padding-top: 1.5rem;
 }
 .navbar-expand-md{
     padding: 0 1rem;
@@ -99,42 +80,41 @@ button:focus{
     color: #fff !important;
 }
 .d-inline-block{
-     width: 40px;
+    width: 40px;
     height: 40px;
 }
 .fixed-top{
     position: relative;
 }
 
-
 /*MEDIA*/
 @media only screen and (max-width: 1680px)  {
     .container{
-         max-width: 60%;   
+        max-width: 60%;   
     }
 }
 @media only screen and (max-width: 1440px)  {
     .container{
-         max-width: 70%;   
+        max-width: 70%;   
     }
 }
 @media only screen and (max-width: 1024px)  {
     .container{
-         max-width: 80% ; 
+        max-width: 80% ; 
     }
     .pt-n1{
         padding-top: 0.5rem !important;
     }
     .txt-size-n1{
-    font-size: 1.75rem;
-}
+        font-size: 1.75rem;
+    }
     .nav-link{
-    font-size: 1.25rem;
-}
+        font-size: 1.25rem;
+    }
 }
 @media only screen and (max-width: 768px)  {
     .container{
-         max-width: 90% ;   
+        max-width: 90% ;   
     }
     .pt-n1{
         padding-top: 0.5rem !important;
@@ -156,12 +136,11 @@ button:focus{
     .fixed-top{
         position: fixed;
         background: rgb(252, 219, 0, 0.9);    
-    }
-    
+    }  
 }
 @media only screen and (max-width: 703px)  {
     .container{
-         max-width: 95%;   
+        max-width: 95%;   
     }
     .pt-n1{
         padding-top: 0 !important;
@@ -169,7 +148,7 @@ button:focus{
 }
 @media only screen and (max-width: 414px)  {
     .container{
-         max-width: 100%;   
+        max-width: 100%;   
     }
     .pt-n1{
         padding-top: 0 !important;
