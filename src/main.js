@@ -7,10 +7,12 @@ import router from "./router";
 import store from "./store";
 //import "materialize-css";
 //import "bootstrap/dist/css/bootstrap.css";
-import VueCarousel from "@chenfengyuan/vue-carousel/dist/vue-carousel";
+//import VueCarousel from "@chenfengyuan/vue-carousel/dist/vue-carousel";
 import BootstrapVue from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
+import VeeValidate from 'vee-validate';
+import VueResource from 'vue-resource';
 
 //import 'bootstrap-css-only/css/bootstrap.css';
 //import 'mdbvue/build/css/mdb.css';
@@ -19,7 +21,9 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
-Vue.use(VueCarousel);
+Vue.use(VeeValidate);
+Vue.use(VueResource);
+//Vue.use(VueCarousel);
 
 new Vue({
   router,

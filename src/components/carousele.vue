@@ -114,6 +114,7 @@ h2{
 }
 .fab:hover{
     color: rgba(255,255,255, 0.75);
+   
 }
 .slideImg img{
    

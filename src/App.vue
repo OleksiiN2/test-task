@@ -3,7 +3,7 @@
     <app-header></app-header>
     <app-carousele></app-carousele>
     <app-features></app-features>
-    
+    <app-sendemail></app-sendemail>
     <app-footer></app-footer>
   </div>
 
@@ -14,6 +14,7 @@
 import header from './components/header.vue'
 import carousele from './components/carousele.vue'
 import features from './components/features.vue'
+import sendemail from './components/sendemail.vue'
 import footer from './components/footer.vue'
 
 export default {
@@ -21,6 +22,7 @@ export default {
     'app-header': header,
     'app-carousele': carousele,
     'app-features': features,
+    'app-sendemail': sendemail,
     'app-footer': footer
   }
 }
@@ -34,6 +36,6 @@ export default {
    
   }*/
   html{
-     font-family:Arial, Helvetica, sans-serif;
+     font-family: sans-serif;
   }
 </style>
