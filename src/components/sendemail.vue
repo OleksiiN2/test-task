@@ -55,7 +55,7 @@
                     "name": "Oleksii Nedosiek"
                 }
                 this.email="";
-                let serviceID = "sendgrid";
+                let serviceID = "default_service";
                 let templateID = "template_ecuIdYho";
                 let userID = "user_XJdhPVHhYgXAzRbdqXQRx";
            

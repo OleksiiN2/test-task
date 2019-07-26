@@ -5,5 +5,7 @@ module.exports = {
         'vue$': 'vue/dist/vue.esm.js'
       }
     }
-  }
+  },
+  publicPath: process.env.NODE_ENV === 'production' ? '/tinyone/' : '/'
+  
 }
